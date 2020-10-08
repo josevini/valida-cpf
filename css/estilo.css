@@ -1,0 +1,26 @@
+body {
+    background-color: #8bc3c7;
+    font-family: arial;
+}
+
+#corpo {
+    width: 20%;
+    margin: auto;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#res {
+    display: flex;
+    justify-content: space-evenly;
+}
