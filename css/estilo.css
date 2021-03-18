@@ -21,6 +21,11 @@ div#form {
     padding: 15px;
 }
 
+input {
+    outline: none;
+    border-radius: 10px;
+}
+
 div#res {
     text-align: center;
     width: 50%;
