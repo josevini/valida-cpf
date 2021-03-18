@@ -13,14 +13,12 @@
             <div class="form">
                 <p>
                     <label for="form_cpf">
-                        CPF: <input type="text" id="form_cpf" maxlength="14" size="11" placeholder="Digite aqui" onkeypress="mascara_cpf()">
+                        CPF: <input type="text" id="form_cpf" maxlength="14" size="11" placeholder="Digite aqui" onkeypress="mascara_cpf()" onkeyup="msg()">
                     </label>
                 </p>
                 <p><button onclick="msg()">Validar</button></p>
             </div>
-            <div id="res">
-                <p>Vazio</p>
-            </div>
+            <div id="res"></div>
         </div>
     </body>
 </html>
