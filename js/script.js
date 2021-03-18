@@ -23,7 +23,10 @@ function mascara_cpf () {
         form_cpf.value += '.'
     } else if (tamanho == 11) {
         form_cpf.value += '-'
-    }
+    } 
+    // else if (tamanho == 13) {
+    //     msg()
+    // } 
 }
 
 function cpf_valido () {
@@ -72,9 +75,13 @@ function cpf_valido () {
 
 function msg () {
     let res = window.document.getElementById('res')
-    if (cpf_valido()) {
-        res.innerHTML = `<p>CPF Válido</p>`
+    let form_cpf = window.document.getElementById('form_cpf')
+    let tamanho = form_cpf.value.length
+    if (tamanho == 0) {
+        res.innerHTML = 'Resultado'
+    } else if (cpf_valido()) {
+        res.innerHTML = 'Válido!'
     } else {
-        res.innerHTML = `<p>CPF Inválido</p>`
+        res.innerHTML = 'Inválido!'
     }
 }
