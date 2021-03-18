@@ -3,9 +3,9 @@ body {
     font-family: arial;
 }
 
-#corpo {
+div#corpo {
     width: 400px;
-    height: 100px;
+    /* height: 100px; */
     margin: auto;
     background-color: #f1f1f1;
     border-radius: 20px;
@@ -16,19 +16,19 @@ h1 {
     text-align: center;
 }
 
-.form {
+div#form {
     display: flex;
     justify-content: space-evenly;
 }
 
-#res {
+div#res {
     text-align: center;
     width: 50%;
     margin: auto;
 }
 
 @media screen and (max-width: 500px) {
-    #corpo {
+    div#corpo {
         width: 300px;
         margin: auto;
         background-color: #f1f1f1;
