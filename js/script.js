@@ -19,7 +19,7 @@ function digitos_iguais (digitos) {
 function mascara_cpf () {
     let form_cpf = window.document.getElementById('form_cpf')
     let tamanho = form_cpf.value.length
-    if (tamanho == 3 || tamanho == 7) {
+    if (tamanho == 3 || tamanho == 7) { // Temporário
         form_cpf.value += '.'
     } else if (tamanho == 11) {
         form_cpf.value += '-'
