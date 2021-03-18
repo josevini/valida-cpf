@@ -22,8 +22,9 @@ h1 {
 }
 
 #res {
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
 @media screen and (max-width: 500px) {
