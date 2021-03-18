@@ -16,6 +16,10 @@ function digitos_iguais (digitos) {
     }
 }
 
+function mascara_cpf () {
+    
+}
+
 function cpf_valido () {
     let form_cpf = window.document.getElementById('form_cpf')
     form_cpf.focus()
