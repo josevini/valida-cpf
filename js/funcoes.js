@@ -23,10 +23,7 @@ function mascara_cpf () {
         form_cpf.value += '.'
     } else if (tamanho == 11) {
         form_cpf.value += '-'
-    } 
-    // else if (tamanho == 13) {
-    //     msg()
-    // } 
+    }
 }
 
 function cpf_valido () {
