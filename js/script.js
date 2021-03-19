@@ -73,7 +73,7 @@ function cpf_valido () {
     }
 }
 
-function msg () {
+function mensagem () {
     let res = window.document.getElementById('res')
     let form_cpf = window.document.getElementById('form_cpf')
     let tamanho = form_cpf.value.length
