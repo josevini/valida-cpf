@@ -18,6 +18,7 @@ function digitos_iguais (digitos) {
 
 function mascara_cpf () {
     let form_cpf = window.document.getElementById('form_cpf')
+    // const mascara = /^([\d]{3})([\d]{3})([\d]{3})([\d]{2})$/g
     let tamanho = form_cpf.value.length
     if (tamanho == 3 || tamanho == 7) { // Temporário
         form_cpf.value += '.'
